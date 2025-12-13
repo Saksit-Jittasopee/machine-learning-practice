@@ -2,7 +2,7 @@
 from scipy.io import loadmat
 import matplotlib.pyplot as plt
 
-mnist_raw = loadmat("mnist-original.mat")
+mnist_raw = loadmat("../mnist-original.mat")
 
 # สร้าง Dictionary เก็บข้อมูลเฉพาะ
 mnist={
